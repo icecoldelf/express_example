@@ -1,20 +1,23 @@
 {
-  "name": "fibonacci",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ./node_modules/.bin/bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "dimblr",
+  "version": "1.0.2",
   "dependencies": {
-    "cookie-parser": "^1.4.3",
-    "express": "^4.16.1",
-    "express-generator": "^4.15.5",
-    "jade": "^1.11.0",
-    "morgan": "^1.9.0",
-    "serve-favicon": "^2.4.5"
-  }
+    "express": "3.2.4"
+  },
+  "description": "Hello World Test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icecoldelf/dimblr.git"
+  },
+  "author": "Luke Dotson <lukedotson@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icecoldelf/dimblr/issues"
+  },
+  "homepage": "https://github.com/icecoldelf/dimblr#readme"
 }
